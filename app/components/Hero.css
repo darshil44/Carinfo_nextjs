@@ -1,0 +1,42 @@
+/* Custom styles for the image slider */
+/* Assuming these are the classes for arrows */
+.slider-arrow-prev,
+.slider-arrow-next {
+  display: none; /* Hide arrows */
+}
+
+.custom-dots {
+    bottom: 20px; /* Position the dots */
+  }
+  
+  .custom-dots li {
+    margin: 0 5px;
+  }
+  
+  .custom-dots li button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-dots li.slick-active button {
+    background-color: white; /* Active dot color */
+    border-color: #ff5f57; /* Highlight the active dot */
+  }
+  
+  .custom-dots li button:hover {
+    background-color: #ff5f57; /* Hover effect for dots */
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: white;
+  }
+  
